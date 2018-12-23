@@ -11,7 +11,6 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'mattn/emmet-vim'
 Plugin 'scrooloose/nerdtree'
-Plugin 'vimwiki/vimwiki'
 Plugin 'altercation/vim-colors-solarized'
 
 " All of your Plugins must be added before the following line
