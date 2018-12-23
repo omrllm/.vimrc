@@ -12,6 +12,13 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'mattn/emmet-vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'altercation/vim-colors-solarized'
+Plugin 'SirVer/ultisnips'
+Plugin 'honza/vim-snippets'
+
+" JAVASCRIPT RELATED PLUGINS
+Plugin 'pangloss/vim-javascript'
+Plugin 'mxw/vim-jsx'
+Plugin 'justinj/vim-react-snippets'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -26,4 +33,5 @@ colorscheme solarized
 
 let g:user_emmet_expandabbr_key='<Tab>'
 imap <expr> <tab> emmet#expandAbbrIntelligent("\<tab>")
+
 
