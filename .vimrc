@@ -24,14 +24,16 @@ Plugin 'justinj/vim-react-snippets'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
-"SOLARIZED
+" SOLARIZED
 syntax enable
 set background=dark
 colorscheme solarized
 
-"EMMET TAB
+" EMMET TAB
 
 let g:user_emmet_expandabbr_key='<Tab>'
 imap <expr> <tab> emmet#expandAbbrIntelligent("\<tab>")
 
+" SET TAB 2 SPACES
 
+set tabstop=2 softtabstop=0 noexpandtab shiftwidth=2 smarttab
